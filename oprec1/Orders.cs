@@ -25,7 +25,6 @@ namespace oprec1
         public void readJSON()
         {
             var data = JsonSerializer.Deserialize<Orders>(Path);
-            Console.WriteLine(data);
             Data = data.Data;
         }
 

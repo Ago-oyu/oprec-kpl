@@ -20,5 +20,7 @@
             Shipping_address = shipping_address;
             Status = status;
         }
+
+        public Order() { }
     }
 }

@@ -25,12 +25,14 @@ namespace oprec1.Controllers
         public void Post([FromBody] Order order)
         {
             orders.Data.Add(order);
+            orders.writeJSON();
         }
 
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] Order order)
         {
             orders.Data[id] = order;
+            orders.writeJSON();
         }
 
 
@@ -38,6 +40,7 @@ namespace oprec1.Controllers
         public void Delete(int id)
         {
             orders.Data.RemoveAt(id);
+            orders.writeJSON();
         }
     }
 }
