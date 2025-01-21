@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oprec1", "oprec1\oprec1.csproj", "{CDDC0915-2E1C-44F2-A866-29DA9A329D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{D6C58220-1CE4-4CE0-9899-1574F9EBB664}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDDC0915-2E1C-44F2-A866-29DA9A329D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDC0915-2E1C-44F2-A866-29DA9A329D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDC0915-2E1C-44F2-A866-29DA9A329D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDC0915-2E1C-44F2-A866-29DA9A329D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C58220-1CE4-4CE0-9899-1574F9EBB664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C58220-1CE4-4CE0-9899-1574F9EBB664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C58220-1CE4-4CE0-9899-1574F9EBB664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C58220-1CE4-4CE0-9899-1574F9EBB664}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BB392A3-60A4-4B43-9F22-FB40E0C56C6A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+{
+  "orders": [
+    {
+      "Customer_name": "Yoga Fikri",
+      "Product_name": "Sony a7",
+      "Quantity": 1,
+      "Total_price": 20000000,
+      "Order_date": "21/01/2025",
+      "Shipping_address": "Karawang",
+      "Status":  "shipped"
+    }
+  ]
+}
